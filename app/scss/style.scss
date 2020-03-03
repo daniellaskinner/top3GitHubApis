@@ -1,0 +1,31 @@
+$repoOutlineColour: 3px solid hotpink;
+$repoBoxPadding: 10px;
+$repoBoxWidth: 570px;
+$repBoxBackgroundColour: skyblue;
+$font: verdana;
+
+body {
+  font-family: $font;
+}
+
+h1, h2, h3 {
+  margin: 10px;
+}
+
+.container {
+
+}
+
+.repoContainer {
+  border: $repoOutlineColour;
+  padding: $repoBoxPadding;
+  width: $repoBoxWidth;
+  background-color: $repBoxBackgroundColour;
+  height: 250px;
+  margin: 10px;
+}
+
+.repoContainer span {
+  font-weight: bold;
+}
+

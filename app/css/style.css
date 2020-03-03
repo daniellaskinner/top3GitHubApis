@@ -1,0 +1,16 @@
+body {
+  font-family: verdana; }
+
+h1, h2, h3 {
+  margin: 10px; }
+
+.repoContainer {
+  border: 3px solid hotpink;
+  padding: 10px;
+  width: 570px;
+  background-color: skyblue;
+  height: 250px;
+  margin: 10px; }
+
+.repoContainer span {
+  font-weight: bold; }
